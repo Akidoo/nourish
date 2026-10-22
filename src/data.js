@@ -24,3 +24,13 @@ export const RESOURCES = [
   { name: 'Your treatment team', detail: 'Add your therapist / dietitian contact here' },
   { name: 'Emergency services', detail: 'Call 995 (Singapore) or your local number' },
 ]
+
+export const SHOW_STREAK = false // true shows the consecutive-day count; default shows "X of the last 7 days"
+export const QUOTES = [
+  'Showing up counts, however the day went.',
+  'You are allowed to take this one step at a time.',
+  'Small, kind choices add up.',
+  'Rest is part of recovery, not a break from it.',
+  'Today does not have to be perfect to be enough.',
+]
+export const MOVE_TYPES = ['Walk', 'Stretch', 'Yoga', 'Dance', 'Other']
